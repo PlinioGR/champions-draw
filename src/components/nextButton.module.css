@@ -1,0 +1,19 @@
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.advanceButton{
+    background-color: rgb(3, 135, 87);
+    height: 50px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: large;
+    border-radius: 7px;
+    border: 2px solid white;
+}

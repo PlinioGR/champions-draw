@@ -1,0 +1,22 @@
+.content{
+    background-color: rgba(105, 101, 101, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tables{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+
+.tables p{
+    display: flex;
+    align-items: center;
+}
+
+.teamLogo{
+    width: 40px;
+    height: 50px;
+    margin-right: 10px;
+    object-fit: contain;
+}

@@ -1,0 +1,194 @@
+[
+    {
+        "name":"Bayern Munich", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/2048px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png", 
+        "country":"Germany",
+        "pot": 1
+    },
+    {
+        "name":"Paris Saint Germain", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/1200px-Paris_Saint-Germain_F.C..svg.png", 
+        "country":"France",
+        "pot": 1
+    },
+    {
+        "name":"Napoli", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/1200px-SSC_Neapel.svg.png", 
+        "country":"Italy",
+        "pot": 1
+    },
+    {
+        "name":"Manchester city", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/800px-Manchester_City_FC_badge.svg.png", 
+        "country":"England",
+        "pot": 1
+    },
+    {
+        "name":"FC Barcelona", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png", 
+        "country":"Spain",
+        "pot": 1
+    },
+    {
+        "name":"Sevilla", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/1200px-Sevilla_FC_logo.svg.png", 
+        "country":"Spain",
+        "pot": 1
+    },
+    {
+        "name":"SL Benfica", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/SL_Benfica_logo.svg/1200px-SL_Benfica_logo.svg.png", 
+        "country":"Portugal",
+        "pot": 1
+    },
+    {
+        "name":"Feyenoord", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Feyenoord_logo_since_2009.svg/1200px-Feyenoord_logo_since_2009.svg.png", 
+        "country":"Nederlands",
+        "pot": 1
+    },
+    {
+        "name":"Manchester united", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1200px-Manchester_United_FC_crest.svg.png", 
+        "country":"England",
+        "pot": 2
+    },
+    {
+        "name":"Real Madrid", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/1200px-Real_Madrid_CF.svg.png", 
+        "country":"Spain",
+        "pot": 2
+    },
+    {
+        "name":"Inter milan", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/1200px-FC_Internazionale_Milano_2021.svg.png", 
+        "country":"Italy",
+        "pot": 2
+    },
+    {
+        "name":"Borussia Dortmund", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/800px-Borussia_Dortmund_logo.svg.png", 
+        "country":"Germany",
+        "pot": 2
+    },
+    {
+        "name":"Atlético de Madrid ", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Atletico_Madrid_2017_logo.svg/1200px-Atletico_Madrid_2017_logo.svg.png", 
+        "country":"Spain",
+        "pot": 2
+    },
+    {
+        "name":"RB Leipzig", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RB_Leipzig_logo.svg/1200px-RB_Leipzig_logo.svg.png", 
+        "country":"Germany",
+        "pot": 2
+    },
+    {
+        "name":"FC Porto", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/FC_Porto.svg/1200px-FC_Porto.svg.png", 
+        "country":"Portugal",
+        "pot": 2
+    },
+    {
+        "name":"Arsenal", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1200px-Arsenal_FC.svg.png", 
+        "country":"England",
+        "pot": 2
+    },
+    {
+        "name":"FC Salzburg", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/7/77/FC_Red_Bull_Salzburg_logo.svg/1200px-FC_Red_Bull_Salzburg_logo.svg.png", 
+        "country":"Austria",
+        "pot": 3
+    },
+    {
+        "name":"FC Shakhtar Donetsk", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/%D0%A4%D0%9A_%D0%A8%D0%B0%D1%85%D1%82%D0%B0%D1%80_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D1%8C%D0%BA.svg/1200px-%D0%A4%D0%9A_%D0%A8%D0%B0%D1%85%D1%82%D0%B0%D1%80_%D0%94%D0%BE%D0%BD%D0%B5%D1%86%D1%8C%D0%BA.svg.png", 
+        "country":"Russia",
+        "pot": 3
+    },
+    {
+        "name":"AC Milan", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1306px-Logo_of_AC_Milan.svg.png", 
+        "country":"Italy",
+        "pot": 3
+    },
+    {
+        "name":"SC Braga", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/7/79/S.C._Braga_logo.svg/1200px-S.C._Braga_logo.svg.png", 
+        "country":"Portugal",
+        "pot": 3
+    },
+    {
+        "name":"PSV Eindhoven", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/PSV_Eindhoven_-_Philips_Stadion_-_Kleedkamer_Welkom_-_Cropped_Logo.jpg/640px-PSV_Eindhoven_-_Philips_Stadion_-_Kleedkamer_Welkom_-_Cropped_Logo.jpg", 
+        "country":"Nederlands",
+        "pot": 3
+    },
+    {
+        "name":"S.S. Lazio", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/S.S._Lazio_logo.svg/1665px-S.S._Lazio_logo.svg.png", 
+        "country":"Italy",
+        "pot": 3
+    },
+    {
+        "name":"F.C. Copenhagen", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/2/26/FC_Copenhagen_logo.svg/1200px-FC_Copenhagen_logo.svg.png", 
+        "country":"Denmark",
+        "pot": 3
+    },
+    {
+        "name":"FK Crvena zvezda", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Logo_FC_Red_Star_Belgrade.svg/1331px-Logo_FC_Red_Star_Belgrade.svg.png", 
+        "country":"Serbia",
+        "pot": 3
+    },
+    {
+        "name":"BSC Young Boys", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/BSC_Young_Boys_logo.svg/2048px-BSC_Young_Boys_logo.svg.png", 
+        "country":"Switzerland",
+        "pot": 4
+    },
+    {
+        "name":"Real Sociedad de Fútbol", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Real_Sociedad_logo.svg/800px-Real_Sociedad_logo.svg.png", 
+        "country":"Spain",
+        "pot": 4
+    },
+    {
+        "name":"Galatasaray A.Ş.", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Galatasaray_Sports_Club_Logo.svg/800px-Galatasaray_Sports_Club_Logo.svg.png", 
+        "country":"Turkey",
+        "pot": 4
+    },
+    {
+        "name":"Celtic FC", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Celtic_FC.svg/1024px-Celtic_FC.svg.png", 
+        "country":"Scotland",
+        "pot": 4
+    },
+    {
+        "name":"Newcastle United FC", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1024px-Newcastle_United_Logo.svg.png", 
+        "country":"England",
+        "pot": 4
+    },
+    {
+        "name":"FC Union Berlin", 
+        "logo":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1._FC_Union_Berlin_Logo.svg/1920px-1._FC_Union_Berlin_Logo.svg.png", 
+        "country":"Germany",
+        "pot": 4
+    },
+    {
+        "name":"Royal Antwerp FC", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Royal_Antwerp_Football_Club_logo.svg/800px-Royal_Antwerp_Football_Club_logo.svg.png", 
+        "country":"Belgium",
+        "pot": 4
+    },
+    {
+        "name":"RC Lens", 
+        "logo":"https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/RC_Lens_logo.svg/800px-RC_Lens_logo.svg.png", 
+        "country":"France",
+        "pot": 4
+    }
+]
