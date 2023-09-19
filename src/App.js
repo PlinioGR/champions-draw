@@ -5,6 +5,7 @@ import NextButton from './components/nextButton';
 import Pots from './components/pots';
 import { useState } from 'react';
 import jsonData from './components/teams.json';
+import AlertOnFirstRender from './components/explanation';
 
 function App() {
   const [potsTeams, setPotsTeams] = useState(jsonData);
@@ -13,7 +14,7 @@ function App() {
 
   const handleTeamDraw = () => {
     const groups = ["A", "B", "C", "D","E","F","G","H"];
-    
+  
     const groupIndex =  Math.floor(Math.random() * 8);
     const group = groups[groupIndex];
 
@@ -33,6 +34,7 @@ function App() {
 
   return (
     <div className="App">
+      <AlertOnFirstRender />
       <Header />
       <NextButton handleClick={handleTeamDraw}/>
       
