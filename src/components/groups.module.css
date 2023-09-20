@@ -9,7 +9,7 @@
     grid-template-columns: repeat(2, 1fr);
  }
 
-.tables p{
+p{
     display: flex;
     align-items: center;
 }
@@ -21,15 +21,24 @@
     object-fit: contain;
 } 
 
+table{
+    width: 90%;
+}
+
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
 
+th{
+    width: 100%;
+}
+
 td{
     display: flex;
     align-items: center;
+    
 }
 
 tr:nth-child(even) {

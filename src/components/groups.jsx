@@ -8,7 +8,7 @@ export default function Groups({teams}) {
 
         return(
             groupsTeams.map(team =>(
-                <tr key={team.name}><td><img class={styles.teamLogo}src={team.logo} alt={team.name}/> {team.name} </td></tr>
+                <tr key={team.name}><td><img class={styles.teamLogo} src={team.logo} alt={team.name}/> {team.name} </td></tr>
             ))
         );
     }
