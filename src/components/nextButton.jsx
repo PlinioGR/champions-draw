@@ -7,14 +7,3 @@ export default function NextButton({handleClick}){
         </div>
     )
 }
-
-function makeDraw(){
-    alert("Sorteo iniciado");
-
-}
-
-/*addRow = () => {
-    // Clonamos el array de filas actual y agregamos una nueva fila
-    const nuevasFilas = [...this.state.filas, <tr key={this.state.filas.length}><td>Nueva Fila</td></tr>];
-    this.setState({ filas: nuevasFilas });
-};*/

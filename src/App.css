@@ -6,9 +6,10 @@ body{
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
-  gap: 20px; /* Espacio entre celdas */
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
   color: white;
-  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 

@@ -1,6 +1,6 @@
 import styles from './pots.module.css'
 
-export default function Pots({teams, handleClick}){
+export default function Pots({teams}){
     const pots=[1, 2, 3, 4];
 
     const loadPotsTeams = (pot) => {
