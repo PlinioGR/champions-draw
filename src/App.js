@@ -6,6 +6,7 @@ import Pots from './components/pots';
 import { useState, useEffect } from 'react';
 import jsonData from './components/teams.json';
 import AlertOnFirstRender from './components/explanation';
+import Finished from './components/finished';
 
 function App() {
   const [potsTeams, setPotsTeams] = useState(jsonData);
@@ -15,20 +16,22 @@ function App() {
   let [remainingGroups, setRemainingGroups] = useState(groups); //remaining groups of the current pot
 
   const handleTeamDraw = () => {
-    const group = drawTeam(potsTeams[0].country, remainingGroups);
+    if(potsTeams.length !== 0){
+      const group = drawTeam(potsTeams[0].country, remainingGroups);
 
-    const newTeam = potsTeams[0];
-    newTeam.group = group;
+      const newTeam = potsTeams[0];
+      newTeam.group = group;
 
-    //Add team to groups
-    setgroupsTeams((prevgroupsTeams) => [...prevgroupsTeams, newTeam]);
+      //Add team to groups
+      setgroupsTeams((prevgroupsTeams) => [...prevgroupsTeams, newTeam]);
 
-    //Remove drawn team
-    const remainingPots = potsTeams.filter((item, index) => index !== 0);
-    setPotsTeams(remainingPots);
+      //Remove drawn team
+      const remainingPots = potsTeams.filter((item, index) => index !== 0);
+      setPotsTeams(remainingPots);
 
-    //Remove group
-    setRemainingGroups(remainingGroups.filter((item) => item !== group));
+      //Remove group
+      setRemainingGroups(remainingGroups.filter((item) => item !== group));
+    }
 
   };
 
@@ -59,9 +62,20 @@ function App() {
     return group;
   }
 
+  function isFinished (){
+    if(potsTeams.length ===0){
+      return(
+        <Finished />
+      );
+    }
+  }
+
   return (
     <div className="App">
       <AlertOnFirstRender />
+
+      {isFinished()}
+
       <Header />
       <NextButton handleClick={handleTeamDraw}/>
       
@@ -72,6 +86,7 @@ function App() {
      
     </div>
   );
+
 }
 
 export default App;
